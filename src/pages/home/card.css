@@ -1,0 +1,81 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0px;
+  }
+  
+  .card {
+    position: relative;
+    width: 50%; /* Adjust as needed */
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: linear-gradient(to right top,rgba(0, 0, 0, 0.7), transparent);
+  }
+  
+  .card-badge {
+    position: absolute;
+    top: -5px;
+    left: 3rem;
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-content {
+    padding: 20px;
+    /* background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.3), transparent); */
+    margin: 1rem;
+    z-index: 1;
+  }
+  
+  .card-content h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .card-content p {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  
+  .btn {
+    padding: 8px 45px;
+    background-color: #FC8A06;;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+   
+  }
+  
+  .btn:hover {
+    background-color: darkorange;
+  }
+
+  .gradientov{
+ 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top right, rgba(0, 0, 0, 1), transparent);
+        border-radius: 10px; /* Make sure to match the container border-radius */
+        
+      }
+  
+  

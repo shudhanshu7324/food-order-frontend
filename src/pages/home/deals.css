@@ -1,0 +1,116 @@
+.deals-section {
+  padding: 50px 20px;
+}
+
+.deals-section h2 {
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.categories button {
+  padding: 0 0.5rem;
+  border-radius: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.categories button.active {
+  border: 1px solid orange;
+  color: orange;
+  font-weight: bold;
+}
+
+.categories button:focus {
+  border: 1px solid orange;
+  color: orange;
+  font-weight: bold;
+}
+
+.categories button:hover {
+  pointer-events: none;
+}
+
+.deals-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.deal-card {
+  position: relative;
+  width: 455px;
+  height: 280px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.deal-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 280px; /* Adjust the height as needed */
+  background: linear-gradient(
+    to bottom left,
+    #FFFFFF00,
+    #03081F30,
+    #03081FE3
+  );
+  z-index: 1;
+}
+
+.deal-card img.deal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.deal-card .discount {
+  position: absolute;
+  right: 10px;
+  background-color: #00152a;
+  color: white;
+  font-size: 0.9rem;
+  padding: 10px 10px;
+  padding-top: 15px;
+  border-end-start-radius: 5px;
+  border-end-end-radius: 5px;
+  z-index: 2;
+}
+
+.deal-info {
+  padding: 15px;
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+  z-index: 2; /* Ensure the text is above the gradient */
+}
+
+.deal-info h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  margin-top: -20px;
+}
+
+.deal-info p {
+  color: #FC8A06;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}

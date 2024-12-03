@@ -1,0 +1,50 @@
+.categories-section {
+    padding: 25px 20px;
+  }
+  
+  .categories-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  .category-card {
+    flex: 1 1 calc(16.66% - 20px); /* Each card takes ~1/6th of the row with spacing*/
+    max-width: calc(16.66% - 20px); 
+    min-width: 150px; /* Minimum size of the card for small screens */
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .category-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .category-card p {
+    color: #ff8c00;
+  }
+
+  .category-card h4,  .category-card p {
+    padding-left: 1.5rem;
+  }
+
+  .category-card h4 {
+    margin-bottom: 0px;
+  }
+  
+  

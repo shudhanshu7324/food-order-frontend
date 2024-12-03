@@ -1,0 +1,118 @@
+.homepage-banner{
+  height: 90vh;
+  width: 92vw;
+  margin: auto;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  position: relative;
+}
+
+.orange{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width:650px;
+  height: 550px;
+}
+
+.untitled2{
+  width: 23vw;
+  position: absolute;
+  bottom: 0;
+  right: 350px;
+}
+
+.untitled1{
+  position: absolute;
+  bottom: 0;
+  width: 50vw;
+  right: 430px;
+}
+
+.notification1{
+  position: absolute;
+  right: 12%;
+  top: 24%;
+}
+
+.notification2{
+  position: absolute;
+  right: 6%;
+  top: 51%;
+}
+
+.notification3{
+  position: absolute;
+  right: 9%;
+  bottom: 4%;
+}
+
+.font{
+  font-weight: 600;
+  font-size: 65px;
+  color: transparent;
+  -webkit-text-stroke: 1px white; 
+}
+
+.one{
+  position: absolute;
+  top: 13%;
+  right: 14%;
+}
+
+.two{
+  position: absolute;
+  right: 7%;
+  top: 40%;
+}
+
+.three{
+  position: absolute;
+  right: 10%;
+  bottom: 15.5%;
+}
+
+.banner-para{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.banner-heading{
+  font-weight: 600;
+  font-size: 40px;
+  color: #03081F;
+  margin-top: -10px;
+}
+
+.pincode-para{
+  font-size: 13px;
+  font-weight: 400;
+  color: #03081F;
+  margin-top: -10px;
+}
+
+.homepage-banner input{
+  color: #000000CC;
+  border: 1px solid #00000066;
+}
+
+.homepage-banner button{
+  background-color: #FC8A06;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  width: 160px;
+  margin-left: -40px;
+}
+
+.banner-content{
+  position: absolute;
+  top: 23%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}

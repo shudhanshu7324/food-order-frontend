@@ -1,0 +1,22 @@
+.order-success-page{
+    margin: 0 2rem;
+}
+.items-ordered{
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.back-to-home{
+    background-color: #FC8A06;
+    color: white;
+    border-radius: 25px;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.order-placed{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}

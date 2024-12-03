@@ -1,0 +1,263 @@
+.profile-page {
+  margin: 0 2rem;
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.name-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.edit-button-div {
+  cursor: pointer;
+  color: white;
+  background-color: #fc8a06;
+  padding: 5px 25px;
+  border-radius: 12px;
+}
+.name-email-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-cards {
+  padding: 20px;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.card-item p {
+  margin: 0px;
+}
+
+.card-item button {
+  background: transparent;
+  border: 1px solid orange;
+  color: orange;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.card-item button:hover {
+  background: orange;
+  color: white;
+}
+
+.add-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  border: 1px dashed #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 15%;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.modal-helper{
+    padding: 20px;
+}
+.modal p {
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  padding: 0px 15px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #FC8A06;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.modal-actions button {
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.modal-actions button:hover{
+    background-color: #663700;
+    color: white;
+}
+
+.profile-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-photo {
+  flex-shrink: 0;
+}
+
+.profile-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.profile-details {
+  flex-grow: 1;
+}
+
+.profile-form .form-group {
+  margin-bottom: 15px;
+  width: 45%;
+}
+
+.profile-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile-form input,
+.profile-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.profile-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+
+.profile-form .form-actions button[type="button"] {
+  background-color: #ddd;
+  color: #333;
+}
+
+.profile-form .form-actions button[type="submit"] {
+  background-color: orange;
+  color: white;
+}
+
+.profile-view p {
+  margin: 5px 0;
+}
+
+.profile-view button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-view button:hover {
+  background-color: darkorange;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px 18px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+}
+
+.card-info img {
+  width: 40px;
+  height: 40px;
+}
+
+.edit-card,
+.add-card {
+  cursor: pointer;
+}
+.add-card img {
+  text-align: center;
+  width: 40px;
+}
+
+.card-info-edit {
+  display: flex;
+  align-items: center; /* Vertically align input and label */
+  gap: 35px;
+  padding: 0px 15px;
+}
+
+.card-info-edit input {
+  flex: 1;
+  border-radius: 10px;
+}
+.card-info-edit label{
+    color: black;
+    width: 25%;
+}
+
+.edit-flex-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+gap: 12px;
+}
+
+.profile-page-container{
+    padding: 1rem;
+}

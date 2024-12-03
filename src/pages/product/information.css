@@ -1,0 +1,35 @@
+.information-section {
+  background-color: #fbfbfb;
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Distribute space evenly */
+  gap: 10px; /* Add space between the boxes */
+
+  border-radius: 10px;
+  /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.55); */
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); /* Left and bottom shadow */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.operational-time {
+  background-color: #03081f;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+.operational-time,
+.contact-info,
+.delivery-info {
+  flex: 1; /* Make each box take up equal space */
+  text-align: left;
+  padding: 3rem;
+  width: 100%;
+}
+
+.info-title{
+    display: flex;
+    align-items: center;
+    gap: 20px   ;
+}
+
+h2{
+    font-size: 28px;
+}

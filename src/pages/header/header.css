@@ -1,0 +1,46 @@
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  margin: 25px 0px;
+}
+
+body {
+  font-size: 15px;
+  
+}
+.profile {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 35px;
+  color: white;
+  padding: 10px 20px;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.buttons{
+  margin-top: 35px;
+}
+.buttons button {
+  /* padding: 0.8rem; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+}
+button:hover,
+button:focus {
+  background-color: #fc8a06;
+  color: white;
+  border: none;
+}

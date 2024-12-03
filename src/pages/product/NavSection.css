@@ -1,0 +1,22 @@
+.food-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FC8A06;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.food-nav button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 20px;
+}
+
+button.focused{
+    background-color: #03081F;
+    border-radius: 25px;
+}

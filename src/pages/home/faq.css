@@ -1,0 +1,129 @@
+
+  
+  .faq-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #f4f4f4;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 35px 0px;
+  }
+  
+  .faq-section h2 {
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .faq-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .faq-menu button {
+    background: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #000;
+    border: none;
+  }
+  .faq-menu button.active-btn{
+    border: 1px solid;
+    border-color: #FC8A06;
+    font-weight: bold;
+  }
+  
+  .faq-menu button:hover {
+    background-color: #ffd45f;
+    color: #fff;
+  }
+  
+  .steps-container {
+    display: flex;
+    margin: 25px 15px;
+    padding: 25px;
+    background-color: white;
+  }
+  
+  .step {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .step img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .step h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .step p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .faq-description {
+    margin-top: 20px;
+    color: #777;
+    font-size: 16px;
+  }
+
+  .faq-heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .left-faqs{
+    width: 50%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-faqs p{
+    width: 80%;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .left-faqs p.active-faq{
+    background-color: #FC8A06;
+  }
+  .right-faqs{
+    margin-left: 20px;
+    margin-top: 8%;
+  }
+
+  
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure cards wrap when there's insufficient space */
+    gap: 20px;
+  }
+  
+  .faq-card {
+    flex: 1 1 calc(33.33% - 20px); /* Ensure cards take up equal width */
+    background-color: #f0f0f0; /* Optional: Card background */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    text-align: center; /* Optional: Center the content inside the card */
+  }
+  
+  .faq-card img {
+    margin: 5px 0px; /* Space between image and text */
+    width: 50%;
+    height: auto;
+  }
