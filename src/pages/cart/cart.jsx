@@ -1,5 +1,5 @@
 import icon from "./arrow.png";
-import cart from "../../assets/images/Cart.png";
+import cart from "../../assets/images/cart.png";
 
 
 export const Cart = ({ isCartOpen, toggleCart }) => {
