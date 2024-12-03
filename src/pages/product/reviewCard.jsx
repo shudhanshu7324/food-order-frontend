@@ -1,4 +1,4 @@
-import Profile from "./Profile.png";
+import Profile from "./profile.png";
 import Time from "./Time.png";
 import "./reviews.css";
 
