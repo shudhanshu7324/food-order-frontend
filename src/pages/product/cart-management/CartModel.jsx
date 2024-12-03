@@ -1,5 +1,5 @@
 import "./CartModel.css";
-import Share from "./Share.png";
+import Share from "./share.png";
 import Basket from "./Basket.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
